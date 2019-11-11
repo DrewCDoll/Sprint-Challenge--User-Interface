@@ -77,26 +77,26 @@ p {
     text-align: left;
 }
 
-.topnav{
+.topnav{  /*sets top-of-page navigation stying used across all pages*/
     margin: 2% auto;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: baseline;
     }
 
-.topnav a {
+.topnav a { /*sets hyperlink tag styling for the top navigation across all pages*/
     text-decoration: none;
     color: black;
     margin: 2%;
     }
         
-.topnav a:hover { 
+.topnav a:hover { /*styles behavior on hover over hyperlink tags on the top nav*/
     cursor: pointer;
     color: red;
     font-style: italic;
     }   
 
-.jumbo-img {
+.jumbo-img { /*styling for the image that sits just under the top navigation*/
     width: 100%;
     margin: 2% 0 1% 0;
     border: groove 2px darkblue;
@@ -191,7 +191,7 @@ p {
 }
 
 
-.about-page-content {
+.about-page-content { /*sets style for the informational blocks on the about page*/
     max-width: 49%;
 	max-height: 49%;
     margin: 1% 0 1% 0;
@@ -206,7 +206,7 @@ p {
     margin: 3% 0 3% 0;
 }
 
-.about-page-content a {
+.about-page-content a { /*styles the hyperlink tags in the content blocks on the about page*/
     text-decoration: none;
 	color: black;
 	background-color: white;
@@ -217,6 +217,7 @@ p {
     cursor: pointer;
 }
 
+/*these next 4 items style the bottom navigation menu common across all pages*/
 footer {
     width: 100%;
     background: black;
@@ -242,6 +243,7 @@ footer nav a:hover {
     font-style: italic;
 }
 
+/*these next 4 items style the contact form on the contact page*/
 input[type=text], select, textarea {
     width: 50%; 
     padding: 12px; 
