@@ -53,6 +53,9 @@ table {
 
 html, body {
     height: 100%;
+    width:  80%;
+    margin-left: 10%;
+    text-align: center;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -66,15 +69,64 @@ p {
     line-height: 1.4;
 }
 
-.container {
-    width: 800px;
+.flex {
+    display: flex;
+}
+
+.text-container {
+    text-align: left;
+}
+
+.topnav{  /*sets top-of-page navigation stying used across all pages*/
+    margin: 2% auto;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+    }
+
+.topnav a { /*sets hyperlink tag styling for the top navigation across all pages*/
+    text-decoration: none;
+    color: black;
+    margin: 2%;
+    }
+        
+.topnav a:hover { /*styles behavior on hover over hyperlink tags on the top nav*/
+    cursor: pointer;
+    color: red;
+    font-style: italic;
+    }   
+
+.jumbo-img { /*styling for the image that sits just under the top navigation*/
+    width: 100%;
+    margin: 2% 0 1% 0;
+    border: groove 2px darkblue;
+    }
+
+.home-page {
+    margin: 4% 0 0 0;
+}
+
+
+.about-page {
     margin: 0 auto;
 }
+
+.about-page-intro {
+    text-align: left;
+    margin: 3% 0 0 0;
+}
+
+.contact-page-intro {
+    text-align: left;
+    margin: 3% 0 0 0;
+}
+
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 3%;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -82,7 +134,8 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    text-align: left;  
 }
 
 .middle-content {
@@ -93,6 +146,7 @@ p {
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+    text-align: left;
 }
 
 .middle-content .boxes {
@@ -126,6 +180,44 @@ p {
     padding-right: 0;
 }
 
+.about-page-content-blocks {
+    display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.about-line {
+   border-top: 1px dotted black;
+}
+
+
+.about-page-content { /*sets style for the informational blocks on the about page*/
+    max-width: 49%;
+	max-height: 49%;
+    margin: 1% 0 1% 0;
+    text-align: left;
+	border: none;
+	padding: 1% 2% 2% 2%;
+	background-color: white;
+
+}
+
+.about-page-content h2 {
+    margin: 3% 0 3% 0;
+}
+
+.about-page-content a { /*styles the hyperlink tags in the content blocks on the about page*/
+    text-decoration: none;
+	color: black;
+	background-color: white;
+    border: solid 3px black;
+    border-radius: 15px;
+    padding: 2% 10% 2% 10%;
+    margin: 0 0 2% 0;
+    cursor: pointer;
+}
+
+/*these next 4 items style the bottom navigation menu common across all pages*/
 footer {
     width: 100%;
     background: black;
@@ -144,3 +236,47 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+footer nav a:hover {
+    cursor: pointer;
+    color: lightsteelblue;
+    font-style: italic;
+}
+
+/*these next 4 items style the contact form on the contact page*/
+input[type=text], select, textarea {
+    width: 50%; 
+    padding: 12px; 
+    border: nonesolid 1px black;
+    box-sizing: border-box; 
+    margin-top: 1%; 
+    margin-bottom: 1%;
+    resize: vertical;
+    text-align: left;
+  }
+  
+  
+  input[type=submit] {
+    text-decoration: none;
+	color: black;
+	background-color: white;
+    border: solid 3px black;
+    border-radius: 15px;
+    padding: 2% 10% 2% 10%;
+    margin: 0 0 2% 0;
+    cursor: pointer;
+  }
+  
+ 
+  input[type=submit]:hover {
+    background-color: lightsteelblue;
+  }
+  
+  
+  .contact-form {
+    display: block;  
+    margin-top: 3%;
+    margin-left: 25%;
+    text-align: left;
+    
+  }

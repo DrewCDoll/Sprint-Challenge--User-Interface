@@ -1,0 +1,114 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Sprint Challenge - Contact</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+
+<body>
+    <!--Standard header across all pages. All that changes is the image-->
+  <header>
+    <nav class="topnav flex">
+        <img src="..\img\lambda-black.png" alt="lambda company black logo">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="#">Products</a>
+        <a href="#">Blog</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+ 
+    <img class="jumbo-img" src="../img/contact-us.jpg" alt="Image of a cityscape">    
+
+</header>
+
+<article class="contact-page">
+
+    <div class="contact-page-intro"> <!--Introduction to contact page, requesting information-->
+     
+      <h2>Contact</h2>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut condimentum nibh. Pellentesque vel efficitur lorem. Aenean nec tempus nulla. In porta urna non libero viverra consequat. Quisque varius arcu in eros pharetra, at rutrum nulla vestibulum. Fusce ultricies cursus orci eu tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque nec nulla vitae mauris aliquam eleifend ut ac arcu. Etiam molestie nisi sed sapien commodo imperdiet. Fusce sodales a sapien ut venenatis. Integer non leo tempus, laoreet velit sit amet, vulputate mi.</p><br><br>
+    
+    </div>
+    
+    <hr class="about-line">
+
+</article>
+
+<div class="contact-form"> <!--Contact form-->
+    <form action="action_page.php">
+  
+      <label for="firstname">First Name</label><br>
+      <input type="text" id="firstname" name="firstname" placeholder="Your first name.."><br>
+  
+      <label for="lastname">Last Name</label><br>
+      <input type="text" id="lastname" name="lastname" placeholder="Your last name.."><br>
+  
+      <label for="org">Organization</label><br>
+      <input type="text" id="org" name="org" placeholder="Organization.."><br>
+
+      <label for="title">Title</label><br>
+      <input type="text" id="title" name="title" placeholder="Title.."><br>
+
+      <label for="saddress">Street Address</label><br>
+      <input type="text" id="saddress" name="streetaddress" placeholder="Street address.."><br>
+
+      <label for="city">City</label><br>
+      <input type="text" id="city" name="city" placeholder="City.."><br>
+
+      <label for="state">State</label><br>
+      <input type="text" id="state" name="state" placeholder="State.."><br>
+
+      <label for="zip">Zip Code</label><br>
+      <input type="text" id="zip" name="zip" placeholder="Zip.."><br>
+
+      <label for="phone">Phone Number</label><br>
+      <input type="text" id="phone" name="phone" placeholder="Phone."><br>
+  
+      <label for="phtype">Phone Type</label><br>
+      <select id="phtype" name="phtype">
+        <option value="office">Office</option>
+        <option value="home">Home</option>
+        <option value="mobile">Mobile</option>
+        <option value="fax">Fax</option>
+      </select><br>
+
+      <label for="reason">Who would you like to call you back?</label><br>
+      <select id="reason" name="reason">
+        <option value="technical">Technical Issue</option>
+        <option value="sales">Sales</option>
+        <option value="finance">Finance</option>
+        <option value="other">Other</option>
+      </select><br>
+   
+  
+     
+        <label for="comment">Comments</label><br>
+        <textarea id="comment" name="comment" placeholder="Comments.." style="height:200px"></textarea><br>
+  
+        <input type="submit" value="Submit">
+
+
+    </form>
+  </div>
+
+<footer> <!--Standard footer across all pages.-->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="#">Products</a>
+        <a href="#">Blog</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</footer>
+      
+</body>
+</html>

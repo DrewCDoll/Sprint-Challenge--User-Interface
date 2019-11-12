@@ -32,15 +32,36 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+	1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-3. What are the 4 areas of the box model?
+Semantic HTML is using tags that have meaning.  For example, using tag <header> for a header section, using <address> for a physical address, using <article> for text than can stand on its own.  Not only does this make the code easier to read but also allows adaptive technology to more easily render websites in ways that can be used by differently-abled people.
 
-4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+	1. Name two big differences between display: block; and display: inline;.
 
-5. Explain why git is valuable to a team of developers.
+
+display: block takes up the full width available and does not allow other elements beside it. It has a new line both before and after.
+
+display: inline allows other elements in the same line and only takes as much space as it needs, and does not force a new line.
+
+	1. What are the 4 areas of the box model?
+
+
+Content, Padding, Border, Margin
+
+
+	1. While using flexbox, what axis does the following property work on: align-items: center?
+
+
+The cross access, which is vertical by default.
+
+	1. Explain why git is valuable to a team of developers.
+
+
+It allows developers to work on code and test new features (or solve bugs) without disturbing the production code.  It also allows developers to be able to see each change as it is committed to the working branch, and to discuss the fork before it is merged into the master branch.
+
+
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
